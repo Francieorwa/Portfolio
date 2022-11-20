@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image:url(images/dark-wallpapers\ \(1\).webp)
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:bottom;
+
+}
+.container{
+    padding: 10px 10%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    
+}
+.logo{
+    width:400px;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    color:rgb(143, 0, 40);
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 6px 0 5px;
+    margin: 0 25px;
+    font-weight: 600;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: rgba(227, 78, 103, 0.984);
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition: 0.5s;
+    
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 5%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 5px;
+}
+.header-text h1 span{
+    color:rgb(143, 0, 40)
+}
+/*about me section*/
+
+#about.row-1{
+    display: flex;
+    justify-self: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+.about-col-2{
+    flex-basis: 60%; 
+    padding: 80px 0;  
+}
+.sub {
+    font-size:60px ;
+    font-weight:600;
+    color:rgb(143,0, 40)
+}
+p{
+    font-size:30px ;
+    font-weight:400 ;
+    color:whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+/*contact section*/
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left h1{
+    margin-top: 60px;
+    color:rgb(143, 0, 40);
+}
+.contact-left p i{
+    color: rgb(115, 10, 50);
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 30px;
+    color:rgb(115, 10, 50);
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: black;
+}
+.copyright p{
+    color:whitesmoke;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 30px;
+    background-color:rgb(143, 0, 40);
+    
+}
+
+
+    
+
+
+
+    
+
+
+
+
+
+
